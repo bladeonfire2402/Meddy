@@ -1,0 +1,9 @@
+.header{
+    height: 90px;
+}
+
+.header-wrapper{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 100%;
+}

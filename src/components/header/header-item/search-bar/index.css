@@ -1,0 +1,7 @@
+.SearchBar-wrapper{
+    width: 400px;
+}
+.SearchBar-wrapper input{
+    width: 100%;
+    border: 2px solid #46aecf;
+}

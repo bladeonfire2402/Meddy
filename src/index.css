@@ -15,3 +15,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Color var */
+:root {
+  --light-blue: #46aecf;
+  --low-white: #f7f7f7;
+  --all-white: #FFFFFF;
+}
+
+.bg-lightblue {
+  background-color: var(--light-blue);
+}
+.bg-allwhite {
+  background-color: var(--all-white);
+}
+.text-allwhite{
+  color: var(--all-white);
+}
+.text-lightblue{
+  color: var(--light-blue);
+}
