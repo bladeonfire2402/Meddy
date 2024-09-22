@@ -1,6 +1,7 @@
 import React from "react"
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import ButtonCustom from "../../../buttonCustom";
+import './index.css'
 
 const MenuNavigation = () => {
     const MenuList = [
@@ -23,13 +24,13 @@ const MenuNavigation = () => {
     ]
     const Items=MenuList.slice(0,3)
     return(
-        <div className="MenuNavigation-wrapper gap-2 flex cursor-pointer">
+        <div className="MenuNavigation-wrapper gap-3 flex cursor-pointer ">
             {Items.map((item,index)=>(
-                <h3 className="text-lightblue " key={index}>{item.name}</h3>
+                <h6 className="text-lightblue mb-0" key={index}>{item.name}</h6>
             ))}
-            <div className="location text-lightblue  flex">
-                <LocationOnIcon/>
-                <h3 className="">{MenuList[3].name}</h3>
+            <div className="location text-lightblue mb-0 flex">
+                <LocationOnIcon className="location-icon"/>
+                <h6 className="mb-0">{MenuList[3].name}</h6>
             </div>
             <ButtonCustom description={"Đăng nhập"} func={()=>{}}/>
         </div>
