@@ -8,4 +8,4 @@ const ButtonCustom = ({ description, func }) => {
   );
 };
 
-export default ButtonCustom;
+export default ButtonCustom

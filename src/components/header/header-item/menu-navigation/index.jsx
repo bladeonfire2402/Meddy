@@ -1,7 +1,8 @@
 import React from "react"
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import ButtonCustom from "../../../buttonCustom";
+
 import './index.css'
+import ButtonCustom from "../../../Button/buttonCustom";
 
 const MenuNavigation = () => {
     const MenuList = [

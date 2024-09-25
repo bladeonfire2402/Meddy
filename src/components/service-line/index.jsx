@@ -5,7 +5,7 @@ const ServiceLine = () => {
     const ServiceList=[
         {
             name:"Mua thuốc",
-            imgsrc:"",
+            imgsrc:"./img/logoweb.png",
             alt:"Mua thuốc",
         },
         {
