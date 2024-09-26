@@ -25,12 +25,12 @@ const MenuNavigation = () => {
     ]
     const Items=MenuList.slice(0,3)
     return(
-        <div className="MenuNavigation-wrapper gap-3 flex cursor-pointer ">
+        <div className="MenuNavigation-wrapper gap-3 flex cursor-pointer items-center">
             {Items.map((item,index)=>(
                 <h6 className="text-lightblue mb-0" key={index}>{item.name}</h6>
             ))}
-            <div className="location text-lightblue mb-0 flex">
-                <LocationOnIcon className="location-icon"/>
+            <div className="location text-lightblue mb-0 flex items-center">
+                 <LocationOnIcon className="location-icon" />
                 <h6 className="mb-0">{MenuList[3].name}</h6>
             </div>
             <ButtonCustom description={"Đăng nhập"} func={()=>{}}/>

@@ -1,0 +1,19 @@
+.ServiceLineItem-wrapper{
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.ServiceLineItem-wrapper div{
+    width: 100%;
+}
+.ServiceLineItem-wrapper img{
+    width: 32px;
+    height: 32px;
+}
+p{
+    font-size: 12px;
+    font-weight: 600;
+}

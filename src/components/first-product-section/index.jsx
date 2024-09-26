@@ -4,7 +4,7 @@ import './index.css'
 
 const FirstProductSection = () => {
     return(
-        <div className="FirstProductSection-wrapper">
+        <div className="FirstProductSection-wrapper bg-pastelblue">
             <Title title={"Sản phẩm bán chạy"}/>
             
         </div>

@@ -1,35 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html{
+  font-family: var(--montserrat);
+}
 body {
   margin: 0;
-  font-family: var(--be-vn-pro);
+  font-family: var(--montserrat);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2, h3, h4, h5,h6,p{
+  font-family: var(--be-vn-pro);
 }
-
 /* Color var */
 :root {
   --light-blue: #46aecf;
   --low-white: #f7f7f7;
   --all-white: #FFFFFF;
+  --light-green:#1cc99e;
+  --Orange:#e8a243;
+  --Red: #f22121;
+  --golden:#f8a809;
+  --pastel-blue:#E3F4F8;
 
   /*font var*/
   --be-vn-pro:"Be Vietnam Pro", sans-serif;
+  --montserrat: "Montserrat", sans-serif;
 }
 
 .bg-lightblue {
   background-color: var(--light-blue);
 }
 
+.bg-pastelblue{
+  background-color: var(--pastel-blue);
+}
+
+.bg-lowwhite{
+  background-color: var(--low-white);
+}
+
 .bg-allwhite {
   background-color: var(--all-white);
+}
+.bg-gradient-lightblue-to-lightgreen-top{
+  background: rgb(70,174,207);
+  background: linear-gradient(180deg, rgba(70,174,207,1) 0%, rgba(28,201,158,1) 100%);
+}
+.bg-gradient-golden-to-red-leftright{
+  background: rgb(248,168,9);
+  background: linear-gradient(90deg, rgba(248,168,9,1) 0%, rgba(242,33,33,1) 100%);
 }
 
 .text-allwhite{

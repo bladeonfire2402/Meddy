@@ -1,0 +1,14 @@
+.GetDiscountBanner-wrapper{
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aquamarine;
+    width: 40%;
+}
+.GetDiscountBanner-wrapper img{
+    width: 250px;
+}
